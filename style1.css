@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(5, 4, 99);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(5, 4, 99);
+        color: white;
+        font-family: 'poppins', sans-serif;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 90px;
+        background-color: black;
+    }
+
+    .firstSection {
+        flex-direction: column;
+    }
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(192, 192, 247);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.4px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+    text-shadow: 3px 4px #6e1ebfe3;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: lavender;
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+#element {
+    color: rgb(148, 72, 219);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(9, 14, 77);
+    height: 50px;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0 23px;
+    padding: 0%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(143, 114, 114);
+    font-size: 1.1rem;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection p {
+    margin: 20px;
+    border: 2px solid white;
+    width: auto;
+}
+
+.btn {
+    margin: 5px;
+    padding: 2px;
+    font-weight: 100;
+}
+
+.btn1 {
+    background-color: rgb(5, 4, 99);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgb(5, 4, 99);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.project {
+    margin: 0px;
+    padding: 0px 23px;
+
+}
+
+.image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+form {
+    margin: 30px;
+    padding: 20px 25px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 15px 10px black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #120a57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e34af;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    width: 50%;
+    font-weight: 800;
+    height: 50%;
+    color: white;
+}

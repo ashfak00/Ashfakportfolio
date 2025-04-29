@@ -109,7 +109,7 @@ nav a:hover {
 footer {
     background-color: rgb(9, 14, 77);
     height: 50px;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
